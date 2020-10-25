@@ -1,0 +1,21 @@
+GETTING STARTED
+
+At this point I am assuming that you have sucessfully installed TimsheetXoops as a module in Xoops 2 (see timesheetXoops_README).
+The installation procedure creates a couple of users in the TimesheetXoops user table - guest and admin.
+Unless you have a Xoops user called guest then you will probably never use it.
+
+ADMINISTRATION
+So, logon to Xoops as admin then select 'timesheetXoops' from the menu.
+You will notice that as admin you have the ability to create Clients, Projects, Tasks etc as well as making
+changes to some configuration settings. The LDAP stuff is a legacy from the original Timesheet.php application
+and isn't used in the Xoops module.
+
+ADDING USERS
+Adding new users to TimesheetXoops is managed using the User Maintenance screen within the Module.
+You can select existing Xoops users to add to the module and you can remove any users already
+selected to have access to the module.
+
+If you wish to enable other users to add, modify, delete Projects,
+Clients, Tasks etc then use the 'Preferences' menu option in the Xoops Admin menu and select
+the required group levels for each of the menu options.
+

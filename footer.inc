@@ -1,0 +1,29 @@
+<?php
+	//Get the result set for the config set 1
+  [$qhq, $numq] = dbQuery("select footerhtml from $CONFIG_TABLE where config_set_id = '1'");
+  $configData = dbResult($qhq);
+	parse_and_echo(stripslashes($configData['footerhtml']));
+?>
+
+<table width="100%" class="grey_area">
+	<tr>
+		<td class="timesheet_logo">
+			Timesheet.php
+		</td>
+		<td align="left">
+			&copy; 2002-2005 Dominic J. Gamble, <a href="http://www.advancen.com">Advancen</a><br>
+			&copy; 1998-1999 Peter D. Kovacs.
+		</td>
+		<td align="right">
+			Usage under terms of <A HREF="http://www.gnu.org/copyleft/gpl.html">GPL</a>.
+		</td>
+	</tr>
+</table>
+
+<?php
+// Modified for the benefit of Xoops
+  if( file_exists('xoops_footer.php') ) {
+    require_once 'xoops_footer.php';
+  }
+//////////////////////////////////////////
+?>

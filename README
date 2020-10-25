@@ -1,0 +1,30 @@
+timesheetXoops is a Xoops 2 module based on timesheet.php developed and supported by Advancen (http://www.advancen.com/timesheet/). It is based on Version 1.2.1 of timesheet.php.
+
+timesheetXoops (Timesheet.php) is designed to keep track of the hours worked by multiple people on multiple projects. It allows users to manage the times that they are clocked on or clocked off. 
+
+Other features include: 
+
+ - User, Client, Project, and Task Management 
+ - Calendar view of work, grouped by project or all projects 
+ - Monthly, weekly or daily views of work 
+ - The ability to customise look and feel 
+ - Work periods spanning multiple days 
+ - Automatic calculation of invoices 
+ - Manual Clock-on/Clock-off maintenance 
+ - Administrator views and reporting 
+ - Simple weekly timesheet entry mode 
+
+ 
+ 
+INSTALLATION:
+The module is extremely simple to install, simply unpack it into your Xoops Modules directory and install it like any other Xoops 2 Module.
+
+See TimesheetXoops_GETTING_STARTED file for more info on getting up and running.
+
+		
+SUPPORT:
+You can obtain support from a couple of places. The official homepage for the timesheetXoops Xoops Module is: http://sourceforge.net/projects/timesheetxoops/.
+
+The support site for timesheet.php is http://sourceforge.net/projects/tsheet/
+
+If you experience problems them please have a look in both these places, then failing that use the timesheetXoops support forums.
